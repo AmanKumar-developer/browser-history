@@ -1,7 +1,7 @@
 // These are the list used in the application. You can move them to any component needed.
-import {Component} from 'react'
 
-import HistoryItem from '../HistoryItem'
+import {Component} from 'react'
+import HistoryItem from './components/HistoryItem'
 
 const initialHistoryList = [
   {
@@ -78,9 +78,10 @@ const initialHistoryList = [
   },
 ]
 
-class App extends Component {
+class History extends Component {
   render() {
-    return <div></div>
+    render()
   }
 }
-export default App
+
+export default History

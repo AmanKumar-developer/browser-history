@@ -1,10 +1,9 @@
 import './index.css' 
 
-const HistoryItem = (props) =>{
-    return(
+
+const HistoryItem = () =>{
+    return (
 
     )
 } 
-
-
 export default HistoryItem 
